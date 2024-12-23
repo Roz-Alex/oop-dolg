@@ -24,4 +24,17 @@
       <None Remove="bin\**" />
     </ItemGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\OOP-ICT.First\OOP-ICT.First.csproj" />
+      <ProjectReference Include="..\OOP-ICT.Fourth\OOP-ICT.Fourth.csproj" />
+      <ProjectReference Include="..\OOP-ICT.Second\OOP-ICT.Second.csproj" />
+      <ProjectReference Include="..\OOP-ICT.Third\OOP-ICT.Third.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="MongoDB.Bson" Version="3.1.0" />
+      <PackageReference Include="MongoDB.Driver" Version="3.1.0" />
+      <PackageReference Include="Spectre.Console" Version="0.49.2-preview.0.69" />
+    </ItemGroup>
+
 </Project>
